@@ -1,9 +1,9 @@
 const myColors = ['red', 'green', 'yellow']
 
 const fruitsByColor = [
-    ['tomato'],
-    ['apple'],
-    ['lemon']
+  ['tomato'],
+  ['apple'],
+  ['lemon']
 ]
 
 // Help with inference when extracting values 
@@ -15,7 +15,7 @@ myColors.push(null)
 
 // Help with 'map'
 myColors.map((item: string): string => {
-    return item
+  return item
 })
 
 // Flexible types 
